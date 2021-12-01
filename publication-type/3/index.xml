@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Geraldin Nanfack</title>
+    <link>https://gerald4.github.io/publication-type/3/</link>
+      <atom:link href="https://gerald4.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 10 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gerald4.github.io/media/icon_hud624b6d467f68b67e72ccf759198487a_205_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://gerald4.github.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Constraint Enforcement on Decision Trees: a Survey</title>
+      <link>https://gerald4.github.io/publication/survey/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Customised Decision Trees for Domain-knowledge Constraints</title>
+      <link>https://gerald4.github.io/publication/pattern_recognition/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/pattern_recognition/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

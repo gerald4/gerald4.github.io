@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://gerald4.github.io/sitemap.xml
