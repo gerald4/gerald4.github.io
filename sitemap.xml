@@ -4,11 +4,11 @@
   
   
   <url>
-    <loc>https://gerald4.github.io/courses/example/python/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
+    <loc>https://gerald4.github.io/trash_courses/example/python/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://gerald4.github.io/courses/example/visualization/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
+    <loc>https://gerald4.github.io/trash_courses/example/visualization/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://gerald4.github.io/courses/example/stats/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
+    <loc>https://gerald4.github.io/trash_courses/example/stats/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://gerald4.github.io/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
@@ -42,9 +42,9 @@
   <url>
     <loc>https://gerald4.github.io/tags/</loc><lastmod>2021-04-10T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://gerald4.github.io/courses/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
+    <loc>https://gerald4.github.io/trash_courses/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://gerald4.github.io/courses/example/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
+    <loc>https://gerald4.github.io/trash_courses/example/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://gerald4.github.io/publication-type/1/</loc><lastmod>2021-01-10T00:00:00+00:00</lastmod></url>
   <url>
@@ -84,6 +84,12 @@
   <url>
     <loc>https://gerald4.github.io/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
   <url>
+    <loc></loc><lastmod>2018-01-10T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc></loc><lastmod>2018-01-10T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://gerald4.github.io/publication/squeeze-segnet/</loc><lastmod>2018-01-10T00:00:00+00:00</lastmod></url>
+  <url>
     <loc>https://gerald4.github.io/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://gerald4.github.io/tag/demo/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
@@ -102,4 +108,6 @@
   <url>
     <loc>https://gerald4.github.io/trash_publication/example/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://gerald4.github.io/admin/</loc></url></urlset>
+    <loc>https://gerald4.github.io/admin/</loc></url>
+  <url>
+    <loc>https://gerald4.github.io/courses/</loc></url></urlset>
