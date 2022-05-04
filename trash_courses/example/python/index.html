@@ -257,7 +257,54 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134521348-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-134521348-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T427R8Z');
+</script>
+
 
   
 
@@ -326,8 +373,27 @@
 
   
 
-
-
+  
+  
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T427R8Z"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  
+  <script>
+   <!-- OPTIONAL dataLayer -->
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      page:'Python basics',
+      categories:'only examples about your dataLayer'
+    });
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T427R8Z');</script>
+  
+  
 
 
   <title>Python basics | Geraldin Nanfack</title>
@@ -924,40 +990,20 @@
 
       </article>
 
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
+      
   
   
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T427R8Z"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<a href="https://clustrmaps.com/site/1blqh"  title="Visit tracker"><img  align="middle" src="//www.clustrmaps.com/map_v2.png?d=uh8EhhwckvrNQY8bFO-Wg6T7RPgL0igrqtvIjy0_STY&cl=ffffff" /></a>
+</div>
+</div>
 
 
     </main>

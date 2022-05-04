@@ -257,7 +257,54 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134521348-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-134521348-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T427R8Z');
+</script>
+
 
   
 
@@ -310,7 +357,7 @@
     <meta property="twitter:image" content="https://gerald4.github.io/media/icon_hud624b6d467f68b67e72ccf759198487a_205_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2021-04-10T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2022-03-10T00:00:00&#43;00:00" />
     
   
 
@@ -322,8 +369,27 @@
 
   
 
-
-
+  
+  
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T427R8Z"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  
+  <script>
+   <!-- OPTIONAL dataLayer -->
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      page:'Publications',
+      categories:'only examples about your dataLayer'
+    });
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T427R8Z');</script>
+  
+  
 
 
   <title>Publications | Geraldin Nanfack</title>
@@ -722,6 +788,9 @@
         
         
       
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -753,6 +822,10 @@
             
             
             
+            <option value=".year-2022">
+              2022
+            </option>
+            
             <option value=".year-2021">
               2021
             </option>
@@ -771,6 +844,84 @@
       </div>
 
       <div id="container-publications">
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2022">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Śedrick Stassin</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Alexandre Englebert</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Gilles Peiffer</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span class="author-highlighted">
+      Géraldin Nanfack</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Julien Albert</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Nassim Versbraegen</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Miriam Doh</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Nicolas Riche</span>, <span >
+      Benoît Frénay</span>, <span >
+      Christophe De Vleeschouwer</span>
+  </span>
+  (2022).
+  <a href="/publication/xai_metrics_eccv/">An Experimental Investigation into the Evaluation of Explainability Methods</a>.
+  Under review in ECCV.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/internal-project/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
         
 
         
@@ -797,7 +948,7 @@
   </span>
   (2021).
   <a href="/publication/pattern_recognition/">Learning Customised Decision Trees for Domain-knowledge Constraints</a>.
-  To be submitted to Pattern Recognition Journal.
+  Under review in Pattern Recognition Journal.
   
   <p>
 
@@ -868,7 +1019,7 @@
   </span>
   (2021).
   <a href="/publication/survey/">Constraint Enforcement on Decision Trees: a Survey</a>.
-  Under revision for ACM Computing Surveys.
+  ACM Computing Surveys.
   
   <p>
 
@@ -880,10 +1031,21 @@
 
 
   
+    
+  
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3506734" target="_blank" rel="noopener">
+  PDF
+</a>
 
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/survey/cite.bib">
+  Cite
+</a>
 
 
 
@@ -1288,40 +1450,20 @@
     
     
     <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
+      
   
   
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T427R8Z"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
+<div class="row">
+<div class="col">
+</div>
+<div class="col">
+<a href="https://clustrmaps.com/site/1blqh"  title="Visit tracker"><img  align="middle" src="//www.clustrmaps.com/map_v2.png?d=uh8EhhwckvrNQY8bFO-Wg6T7RPgL0igrqtvIjy0_STY&cl=ffffff" /></a>
+</div>
+</div>
 
     </div>
     
