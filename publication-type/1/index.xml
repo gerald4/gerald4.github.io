@@ -5,12 +5,36 @@
     <link>https://gerald4.github.io/publication-type/1/</link>
       <atom:link href="https://gerald4.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gerald4.github.io/media/icon_hud624b6d467f68b67e72ccf759198487a_205_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://gerald4.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Adversarial Attacks on the Interpretation of Neuron Activation Maximization</title>
+      <link>https://gerald4.github.io/publication/interpretability_attacks/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/interpretability_attacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explaining through Transformer Input Sampling</title>
+      <link>https://gerald4.github.io/publication/transformer_input_sampling/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/transformer_input_sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Experimental Investigation into the Evaluation of Explainability Methods</title>
+      <link>https://gerald4.github.io/publication/xai_metrics_eccv/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/xai_metrics_eccv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Boundary-Based Fairness Constraints in Decision Trees and Random Forests</title>
