@@ -128,18 +128,50 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
-      <title>An Experimental Investigation into the Evaluation of Explainability Methods</title>
-      <link>https://gerald4.github.io/publication/xai_metrics_eccv/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://gerald4.github.io/publication/xai_metrics_eccv/</guid>
+      <title>Adversarial Attacks on the Interpretation of Neuron Activation Maximization</title>
+      <link>https://gerald4.github.io/publication/interpretability_attacks/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/interpretability_attacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Customised Decision Trees for Domain-knowledge Constraints</title>
+      <link>https://gerald4.github.io/publication/pattern_recognition/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/pattern_recognition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decision trees: From efficient prediction to responsible AI</title>
       <link>https://gerald4.github.io/publication/dt_review/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://gerald4.github.io/publication/dt_review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explaining through Transformer Input Sampling</title>
+      <link>https://gerald4.github.io/publication/transformer_input_sampling/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/transformer_input_sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraint Enforcement on Decision Trees: a Survey</title>
+      <link>https://gerald4.github.io/publication/survey/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Experimental Investigation into the Evaluation of Explainability Methods</title>
+      <link>https://gerald4.github.io/publication/xai_metrics_eccv/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gerald4.github.io/publication/xai_metrics_eccv/</guid>
       <description></description>
     </item>
     
@@ -150,22 +182,6 @@ The variance of the distribution is $\sigma^{2}$.
       <guid>https://gerald4.github.io/project/internal-project/</guid>
       <description>&lt;p&gt;Description in progress&amp;hellip;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Constraint Enforcement on Decision Trees: a Survey</title>
-      <link>https://gerald4.github.io/publication/survey/</link>
-      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://gerald4.github.io/publication/survey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Customised Decision Trees for Domain-knowledge Constraints</title>
-      <link>https://gerald4.github.io/publication/pattern_recognition/</link>
-      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://gerald4.github.io/publication/pattern_recognition/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -314,7 +330,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-645397812&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-754261983&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -324,7 +340,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-645397812&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-754261983&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
